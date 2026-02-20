@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   clang-tidy:
-    if: github.repository_owner == 'facebook'
+    if: github.repository_owner == 'hackerhero0x01'
     runs-on:
       labels: 4-core-ubuntu
     container:
