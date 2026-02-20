@@ -10,7 +10,7 @@ jobs:
   clang-tidy:
     if: github.repository_owner == 'hackerhero0x01'
     runs-on:
-      labels: 4-core-ubuntu
+      labels: ubuntu-latest
     container:
       image: ghcr.io/facebook/rocksdb_ubuntu:24.0
     steps:
